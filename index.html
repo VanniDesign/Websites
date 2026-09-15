@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FRESHNUTS – The Donut Factory | Handmade Donuts & Bubble Tea in Dortmund</title>
+<meta name="description" content="FRESHNUTS – The Donut Factory: handgemachte Gourmet-Donuts und Bubble Tea in Dortmund. Auch vegan. Jetzt vor Ort genießen oder über Lieferando bestellen.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Permanent+Marker&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="no-js">
+<a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="#top" class="nav__logo" aria-label="FRESHNUTS Startseite">
+      FRESHNUTS <span>the donut factory</span>
+    </a>
+
+    <ul class="nav__links">
+      <li><a href="#menu">Menü</a></li>
+      <li><a href="#about">Über uns</a></li>
+      <li><a href="#gallery">Galerie</a></li>
+      <li><a href="#location">Standort</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+    </ul>
+
+    <!-- TODO: echten Lieferando-Link von Freshnuts Dortmund einsetzen -->
+    <a href="#" class="btn btn--primary nav__cta">Jetzt bestellen</a>
+
+    <button class="nav__toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menü öffnen">
+      <span></span>
+    </button>
+  </nav>
+
+  <div class="nav__mobile-panel" id="mobile-menu">
+    <a href="#menu">Menü</a>
+    <a href="#about">Über uns</a>
+    <a href="#gallery">Galerie</a>
+    <a href="#location">Standort</a>
+    <a href="#contact">Kontakt</a>
+    <a href="#" class="btn btn--primary">Jetzt bestellen</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="container hero__grid">
+      <div data-reveal>
+        <span class="eyebrow">Handmade with love</span>
+        <h1>Gourmet Donuts &amp; Bubble Tea, frisch aus der Factory.</h1>
+        <p>FRESHNUTS bringt handgemachte Donuts mit ehrlichen Zutaten und cremigem Bubble Tea auf einen Teller – bunt, verspielt und richtig lecker. Auch in vegan.</p>
+
+        <div class="hero__badges">
+          <span class="badge badge--pink">🍩 Handmade Donuts</span>
+          <span class="badge badge--teal">🧋 Bubble Tea &amp; Shakes</span>
+          <span class="badge badge--pink">🌱 auch vegan</span>
+        </div>
+
+        <div class="hero__actions">
+          <a href="#menu" class="btn btn--primary">Menü ansehen</a>
+          <!-- TODO: echten Lieferando-Link einsetzen -->
+          <a href="#" class="btn btn--secondary">Über Lieferando bestellen</a>
+        </div>
+      </div>
+
+      <div data-reveal class="hero__visual">
+        <!-- TODO: echtes Foto ersetzen, z.B. assets/images/hero-donuts.jpg -->
+        <img src="assets/images/placeholder-hero.svg" alt="Bunte, cremige FRESHNUTS Donuts mit Frucht-Topping">
+      </div>
+    </div>
+  </section>
+
+  <!-- USP STRIP -->
+  <section class="container">
+    <div class="usp-strip" data-reveal-group>
+      <div class="usp-item" data-reveal>
+        <img class="usp-item__icon" src="assets/images/icon-fresh.svg" alt="" aria-hidden="true">
+        <h3>Täglich frisch</h3>
+        <p>Jeden Tag handgemacht in unserer Factory.</p>
+      </div>
+      <div class="usp-item" data-reveal>
+        <img class="usp-item__icon" src="assets/images/icon-vegan.svg" alt="" aria-hidden="true">
+        <h3>Auch vegan</h3>
+        <p>Leckere Optionen für alle.</p>
+      </div>
+      <div class="usp-item" data-reveal>
+        <img class="usp-item__icon" src="assets/images/icon-donut.svg" alt="" aria-hidden="true">
+        <h3>Über 20 Sorten</h3>
+        <p>Von Klassiker bis Signature-Creation.</p>
+      </div>
+      <div class="usp-item" data-reveal>
+        <img class="usp-item__icon" src="assets/images/icon-delivery.svg" alt="" aria-hidden="true">
+        <h3>Lieferando</h3>
+        <p>Bestell dir FRESHNUTS bequem nach Hause.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="section section--tint-pink" id="menu">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Unsere Favoriten</span>
+        <h2>Menü-Highlights</h2>
+        <p>Eine kleine Auswahl aus unserer Factory – die vollständige Karte gibt's bei uns im Laden und auf Lieferando.</p>
+      </div>
+
+      <h3 data-reveal>🍩 Donuts</h3>
+      <div class="menu-grid" data-reveal-group style="margin-bottom: var(--space-5);">
+        <!-- TODO: echte Produktfotos, Namen und Preise einsetzen -->
+        <article class="menu-card" data-reveal>
+          <div class="menu-card__media"><img src="assets/images/placeholder-donut-1.svg" alt="Donut mit Beeren-Topping und Streuseln"></div>
+          <div class="menu-card__body">
+            <span class="tag">Bestseller</span>
+            <h3>Berry Cream Donut</h3>
+            <p>Vanillecreme, frische Beeren, weißer Krokant.</p>
+            <span class="menu-card__price">ab 3,90 €</span>
+          </div>
+        </article>
+        <article class="menu-card" data-reveal>
+          <div class="menu-card__media"><img src="assets/images/placeholder-donut-2.svg" alt="Donut mit Schokoladen-Topping"></div>
+          <div class="menu-card__body">
+            <span class="tag">Klassiker</span>
+            <h3>Chocolate Overload</h3>
+            <p>Belgische Schokolade, Schoko-Crunch.</p>
+            <span class="menu-card__price">ab 3,90 €</span>
+          </div>
+        </article>
+        <article class="menu-card" data-reveal>
+          <div class="menu-card__media"><img src="assets/images/placeholder-donut-3.svg" alt="Donut mit Erdbeer-Topping"></div>
+          <div class="menu-card__body">
+            <span class="tag">Saisonal</span>
+            <h3>Strawberry Cheesecake</h3>
+            <p>Frischkäsecreme, Erdbeeren, Keksbröseln.</p>
+            <span class="menu-card__price">ab 4,20 €</span>
+          </div>
+        </article>
+        <article class="menu-card" data-reveal>
+          <div class="menu-card__media"><img src="assets/images/placeholder-donut-4.svg" alt="Veganer Donut"></div>
+          <div class="menu-card__body">
+            <span class="tag">🌱 Vegan</span>
+            <h3>Vegan Vanilla Bliss</h3>
+            <p>Pflanzliche Creme, karamellisierte Mandeln.</p>
+            <span class="menu-card__price">ab 4,20 €</span>
+          </div>
+        </article>
+      </div>
+
+      <h3 data-reveal>🧋 Bubble Tea &amp; Shakes</h3>
+      <div class="menu-grid" data-reveal-group>
+        <article class="menu-card" data-reveal>
+          <div class="menu-card__media"><img src="assets/images/placeholder-drink-1.svg" alt="Taro Bubble Tea"></div>
+          <div class="menu-card__body">
+            <span class="tag">Fan-Favorit</span>
+            <h3>Taro Milk Tea</h3>
+            <p>Cremiger Taro, Bubble Pearls.</p>
+            <span class="menu-card__price">ab 4,50 €</span>
+          </div>
+        </article>
+        <article class="menu-card" data-reveal>
+          <div class="menu-card__media"><img src="assets/images/placeholder-drink-2.svg" alt="Erdbeer Milkshake"></div>
+          <div class="menu-card__body">
+            <span class="tag">Signature</span>
+            <h3>Strawberry Cream Shake</h3>
+            <p>Frische Erdbeeren, Sahnehaube.</p>
+            <span class="menu-card__price">ab 4,90 €</span>
+          </div>
+        </article>
+        <article class="menu-card" data-reveal>
+          <div class="menu-card__media"><img src="assets/images/placeholder-drink-3.svg" alt="Matcha Bubble Tea"></div>
+          <div class="menu-card__body">
+            <span class="tag">Neu</span>
+            <h3>Matcha Bubble Tea</h3>
+            <p>Feiner Matcha, Bubble Pearls, leicht süß.</p>
+            <span class="menu-card__price">ab 4,50 €</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Ein Blick in die Factory</span>
+        <h2>Galerie</h2>
+      </div>
+      <div class="gallery-grid" data-reveal-group>
+        <!-- TODO: echte Laden-/Produktfotos einsetzen -->
+        <figure data-reveal><img src="assets/images/placeholder-gallery-1.svg" alt="FRESHNUTS Ladenfront"></figure>
+        <figure data-reveal><img src="assets/images/placeholder-gallery-2.svg" alt="Donut-Vitrine"></figure>
+        <figure data-reveal><img src="assets/images/placeholder-gallery-3.svg" alt="Bubble Tea Zubereitung"></figure>
+        <figure data-reveal><img src="assets/images/placeholder-gallery-4.svg" alt="Donuts Nahaufnahme"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section section--tint-teal" id="about">
+    <div class="container about-grid">
+      <div class="about-photo" data-reveal>
+        <!-- TODO: echtes Team-/Laden-Foto einsetzen -->
+        <img src="assets/images/placeholder-about.svg" alt="Das FRESHNUTS Team in der Factory">
+      </div>
+      <div data-reveal>
+        <span class="eyebrow">Handmade with love</span>
+        <h2>Unsere Story</h2>
+        <p>FRESHNUTS – The Donut Factory ist mehr als ein Donut-Laden: Wir kreieren jeden Tag mit Herz und Liebe zum Detail handgemachte Donuts und cremigen Bubble Tea, bunt wie unsere Persönlichkeit. Ob klassisch oder ausgefallen, ob vegan oder nicht – bei uns ist für jeden Geschmack etwas dabei.</p>
+        <!-- TODO: echte Gründungsgeschichte / Herkunft der Zutaten ergänzen -->
+        <p>Komm vorbei, probier dich durch unsere Kreationen oder bestell dir FRESHNUTS ganz einfach nach Hause über Lieferando.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION & HOURS -->
+  <section class="section" id="location">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Besuch uns</span>
+        <h2>Standort &amp; Öffnungszeiten</h2>
+      </div>
+      <div class="location-grid">
+        <div data-reveal>
+          <h3>FRESHNUTS Dortmund</h3>
+          <!-- TODO: echte Adresse einsetzen -->
+          <p>Musterstraße 1, 44135 Dortmund</p>
+          <table class="hours-table">
+            <!-- TODO: echte Öffnungszeiten einsetzen -->
+            <tr><td>Montag – Freitag</td><td>11:00 – 19:00 Uhr</td></tr>
+            <tr><td>Samstag</td><td>11:00 – 19:00 Uhr</td></tr>
+            <tr><td>Sonntag</td><td>12:00 – 18:00 Uhr</td></tr>
+          </table>
+        </div>
+        <div class="map-embed" data-reveal>
+          <!-- TODO: echte Adresse in den Maps-Embed-Link einsetzen -->
+          <iframe
+            src="https://www.google.com/maps?q=Dortmund&output=embed"
+            loading="lazy"
+            title="Standort FRESHNUTS Dortmund auf Google Maps"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--tint-pink" id="contact">
+    <div class="container contact-grid">
+      <div data-reveal>
+        <span class="eyebrow">Sag hallo</span>
+        <h2>Kontakt</h2>
+        <p>Fragen, Feedback oder eine Frage zu einer großen Bestellung? Schreib uns einfach.</p>
+        <!-- TODO: echte Telefonnummer/E-Mail einsetzen -->
+        <p><strong>Telefon:</strong> <a href="tel:+4900000000">0231 000 00 00</a><br>
+        <strong>E-Mail:</strong> <a href="mailto:hallo@freshnuts-dortmund.de">hallo@freshnuts-dortmund.de</a></p>
+
+        <div class="social-row">
+          <!-- TODO: echte Social-Links einsetzen -->
+          <a class="social-link" href="#" aria-label="FRESHNUTS auf Instagram">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+          </a>
+          <a class="social-link" href="#" aria-label="FRESHNUTS auf TikTok">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 3v10.5a3.5 3.5 0 1 1-3-3.46" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M14 3c.5 2.5 2.3 4.3 4.8 4.6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </a>
+          <!-- TODO: echten Lieferando-Link einsetzen -->
+          <a class="social-link" href="#" aria-label="FRESHNUTS auf Lieferando bestellen">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 4h16l-1.5 9.5a2 2 0 0 1-2 1.7H7.5a2 2 0 0 1-2-1.7L4 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="8.5" cy="20" r="1.3" fill="currentColor"/><circle cx="15.5" cy="20" r="1.3" fill="currentColor"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <form data-reveal class="menu-card" style="padding: var(--space-3);" action="#" method="POST">
+        <!-- TODO: echtes Formular-Backend / mailto-Ziel einsetzen -->
+        <div style="margin-bottom: var(--space-2);">
+          <label for="name" style="display:block; font-weight:700; margin-bottom:4px;">Name</label>
+          <input id="name" name="name" type="text" required style="width:100%; padding:12px; border-radius:10px; border:2px solid var(--color-ink); min-height:44px;">
+        </div>
+        <div style="margin-bottom: var(--space-2);">
+          <label for="email" style="display:block; font-weight:700; margin-bottom:4px;">E-Mail</label>
+          <input id="email" name="email" type="email" required style="width:100%; padding:12px; border-radius:10px; border:2px solid var(--color-ink); min-height:44px;">
+        </div>
+        <div style="margin-bottom: var(--space-3);">
+          <label for="message" style="display:block; font-weight:700; margin-bottom:4px;">Nachricht</label>
+          <textarea id="message" name="message" rows="4" required style="width:100%; padding:12px; border-radius:10px; border:2px solid var(--color-ink);"></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary" style="width:100%;">Nachricht senden</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> FRESHNUTS – The Donut Factory · Dortmund · <a href="#contact">Kontakt</a></p>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
